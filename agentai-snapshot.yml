@@ -1,0 +1,246 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - link "AG AgentAI" [ref=f1e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=f1e4]: AG
+      - generic [ref=f1e5]: AgentAI
+    - navigation "主要導覽" [ref=f1e6]:
+      - link "優點" [ref=f1e7] [cursor=pointer]:
+        - /url: "#benefits"
+      - link "運作方式" [ref=f1e8] [cursor=pointer]:
+        - /url: "#demo"
+      - link "數據" [ref=f1e9] [cursor=pointer]:
+        - /url: "#numbers"
+      - link "FAQ" [ref=f1e10] [cursor=pointer]:
+        - /url: "#faq"
+    - link "立即導入" [ref=f1e11] [cursor=pointer]:
+      - /url: "#cta"
+  - generic [ref=f1e12]:
+    - paragraph [ref=f1e13]: TAIWAN / 自主智慧體白皮書 · 2026
+    - heading "不是聊天機器人， 是會動手做事 的 AI。" [level=1] [ref=f1e14]:
+      - generic [ref=f1e15]: 不是聊天機器人，
+      - generic [ref=f1e16]: 是會動手做事
+      - generic [ref=f1e17]: 的 AI。
+    - paragraph [ref=f1e18]: Agent AI 能拆解任務、調用工具、自主決策並持續改進——把「回答問題」變成「完成工作」。 這是一份關於它如何改變生產力的簡報。
+    - generic [ref=f1e19]:
+      - link "探索八項優點 ↓" [ref=f1e20] [cursor=pointer]:
+        - /url: "#benefits"
+      - link "▶ 看它如何運作" [ref=f1e21] [cursor=pointer]:
+        - /url: "#demo"
+    - generic [ref=f1e22]:
+      - generic [ref=f1e23]: "01"
+      - generic [ref=f1e24]: 自主性
+      - generic [ref=f1e25]: ·
+      - generic [ref=f1e26]: "02"
+      - generic [ref=f1e27]: 工具調用
+      - generic [ref=f1e28]: ·
+      - generic [ref=f1e29]: "03"
+      - generic [ref=f1e30]: 多代理協作
+  - generic [ref=f1e32]:
+    - generic [ref=f1e33]: 自主決策
+    - generic [ref=f1e34]: ◆
+    - generic [ref=f1e35]: 工具調用
+    - generic [ref=f1e36]: ◆
+    - generic [ref=f1e37]: 多步規劃
+    - generic [ref=f1e38]: ◆
+    - generic [ref=f1e39]: 7×24 運作
+    - generic [ref=f1e40]: ◆
+    - generic [ref=f1e41]: 自我修正
+    - generic [ref=f1e42]: ◆
+    - generic [ref=f1e43]: 代理協作
+    - generic [ref=f1e44]: ◆
+    - generic [ref=f1e45]: 自主決策
+    - generic [ref=f1e46]: ◆
+    - generic [ref=f1e47]: 工具調用
+    - generic [ref=f1e48]: ◆
+    - generic [ref=f1e49]: 多步規劃
+    - generic [ref=f1e50]: ◆
+    - generic [ref=f1e51]: 7×24 運作
+    - generic [ref=f1e52]: ◆
+    - generic [ref=f1e53]: 自我修正代理協作◆
+  - main [ref=f1e54]:
+    - generic [ref=f1e55]:
+      - paragraph [ref=f1e56]: THE BENEFITS — 01/08
+      - heading "為何企業開始 僱用「智慧體」？" [level=2] [ref=f1e57]: 為何企業開始僱用「智慧體」？
+      - paragraph [ref=f1e58]: 八個維度，說明 Agent AI 不是升級版客服，而是全新的執行力。
+    - article [ref=f1e59]:
+      - generic [ref=f1e60]: "01"
+      - generic [ref=f1e61]:
+        - heading "真正的自主性" [level=3] [ref=f1e62]
+        - paragraph [ref=f1e63]: Agent 不等待指令。它接收目標後，自行拆解子任務、安排執行順序，並在遇到障礙時調整策略——就像一位不需要微管理的資深員工。
+        - list [ref=f1e64]:
+          - listitem [ref=f1e65]: 目標驅動
+          - listitem [ref=f1e66]: 動態決策
+          - listitem [ref=f1e67]: 自我排程
+      - generic [ref=f1e68]: autonomy
+    - article [ref=f1e81]:
+      - generic [ref=f1e82]: "02"
+      - generic [ref=f1e83]:
+        - heading "工具調用與系統整合" [level=3] [ref=f1e84]
+        - paragraph [ref=f1e85]: 查 API、寫資料庫、發郵件、操作瀏覽器——Agent 透過「函式呼叫」直接操作你的工具鏈，打破「只能說、不能做」的界線。
+        - list [ref=f1e86]:
+          - listitem [ref=f1e87]: API 串接
+          - listitem [ref=f1e88]: 瀏覽器自動化
+          - listitem [ref=f1e89]: 資料庫操作
+      - generic [ref=f1e90]:
+        - img [ref=f1e91]:
+          - generic [ref=f1e93]: API
+          - generic [ref=f1e95]: DB
+          - generic [ref=f1e97]: AGENT
+        - text: tools
+    - article [ref=f1e98]:
+      - generic [ref=f1e99]: "03"
+      - generic [ref=f1e100]:
+        - heading "多步驟規劃與推理" [level=3] [ref=f1e101]
+        - paragraph [ref=f1e102]: 單次提示無法完成的事，Agent 以思維鏈拆解成十步、百步的計畫，逐步驗證結果、回溯錯誤，直到任務完成。
+        - list [ref=f1e103]:
+          - listitem [ref=f1e104]: 思維鏈
+          - listitem [ref=f1e105]: 回朔修正
+          - listitem [ref=f1e106]: 長程任務
+      - generic [ref=f1e107]: plan
+    - article [ref=f1e115]:
+      - generic [ref=f1e116]: "04"
+      - generic [ref=f1e117]:
+        - heading "7×24 不間斷執行力" [level=3] [ref=f1e118]
+        - paragraph [ref=f1e119]: 凌晨三點的訂單異常、假日湧入的支援請求——Agent 全年無休、零疲勞運作，把「等待上班」變成過去式。
+        - list [ref=f1e120]:
+          - listitem [ref=f1e121]: 零停工
+          - listitem [ref=f1e122]: 即時回應
+          - listitem [ref=f1e123]: 全球時區
+      - generic [ref=f1e124]:
+        - img [ref=f1e125]:
+          - generic [ref=f1e132]: 24/7
+        - text: clock
+    - article [ref=f1e133]:
+      - generic [ref=f1e134]: "05"
+      - generic [ref=f1e135]:
+        - heading "成本與效率的雙重槓桿" [level=3] [ref=f1e136]
+        - paragraph [ref=f1e137]: 一個 Agent 可同時處理數十條流程。研究顯示，導入代理自動化的團隊平均省下 40% 以上的流程工時，把人力釋放到真正需要判斷的工作。
+        - list [ref=f1e138]:
+          - listitem [ref=f1e139]: 省工時
+          - listitem [ref=f1e140]: 擴展性
+          - listitem [ref=f1e141]: ROI 明確
+      - generic [ref=f1e142]:
+        - img [ref=f1e143]:
+          - generic [ref=f1e144]: 人工
+          - generic [ref=f1e146]: Agent
+          - generic [ref=f1e148]: 工時
+        - text: lever
+    - article [ref=f1e149]:
+      - generic [ref=f1e150]: "06"
+      - generic [ref=f1e151]:
+        - heading "持續學習與自我改進" [level=3] [ref=f1e152]
+        - paragraph [ref=f1e153]: 每次任務的回饋都會成為下一次的經驗。Agent 從失敗中學習、從成功中精進，使用越久、表現越好——這是傳統自動化做不到的。
+        - list [ref=f1e154]:
+          - listitem [ref=f1e155]: 經驗記憶
+          - listitem [ref=f1e156]: 回饋循環
+          - listitem [ref=f1e157]: 越用越強
+      - generic [ref=f1e158]:
+        - img [ref=f1e159]:
+          - generic [ref=f1e164]: 經驗曲線
+        - text: learn
+    - article [ref=f1e165]:
+      - generic [ref=f1e166]: "07"
+      - generic [ref=f1e167]:
+        - heading "多代理協作網路" [level=3] [ref=f1e168]
+        - paragraph [ref=f1e169]: 研究者、寫手、審查者、執行者——多個專精 Agent 像一支團隊般分工，透過協定傳遞任務與成果，把複雜專案拆成專業分工。
+        - list [ref=f1e170]:
+          - listitem [ref=f1e171]: 角色分工
+          - listitem [ref=f1e172]: 協定通訊
+          - listitem [ref=f1e173]: 團隊協作
+      - generic [ref=f1e174]: swarm
+    - article [ref=f1e190]:
+      - generic [ref=f1e191]: "08"
+      - generic [ref=f1e192]:
+        - heading "降低人為錯誤與一致品質" [level=3] [ref=f1e193]
+        - paragraph [ref=f1e194]: 手動作業的疏漏、情緒、疲勞——全部歸零。Agent 嚴格遵循規則與標準作業流程，每次產出的一致性，遠勝最謹慎的人類。
+        - list [ref=f1e195]:
+          - listitem [ref=f1e196]: 零疏漏
+          - listitem [ref=f1e197]: SOP 內建
+          - listitem [ref=f1e198]: 可稽核
+      - generic [ref=f1e199]: shield
+  - generic [ref=f1e204]:
+    - generic [ref=f1e205]:
+      - paragraph [ref=f1e206]: HOW IT WORKS — 02/08
+      - heading "一次任務的 生命週期" [level=2] [ref=f1e207]: 一次任務的生命週期
+    - generic [ref=f1e208]:
+      - generic [ref=f1e209]:
+        - generic [ref=f1e210]: ◎
+        - heading "接收目標" [level=4] [ref=f1e211]
+        - paragraph [ref=f1e212]: 「整理本季所有客戶報價並寄出」
+      - generic [ref=f1e213]: →
+      - generic [ref=f1e214]:
+        - generic [ref=f1e215]: ◇
+        - heading "拆解規劃" [level=4] [ref=f1e216]
+        - paragraph [ref=f1e217]: 擷取資料 → 計算 → 產生 PDF
+      - generic [ref=f1e218]: →
+      - generic [ref=f1e219]:
+        - generic [ref=f1e220]: △
+        - heading "調用工具" [level=4] [ref=f1e221]
+        - paragraph [ref=f1e222]: SELECT · PRICE() · RENDER()
+      - generic [ref=f1e223]: →
+      - generic [ref=f1e224]:
+        - generic [ref=f1e225]: ◈
+        - heading "驗證回報" [level=4] [ref=f1e226]
+        - paragraph [ref=f1e227]: 核對金額 → 通知完成 ✓
+    - generic [ref=f1e228]:
+      - code [ref=f1e233]: agent@work ~ % run mission
+      - generic [ref=f1e234]:
+        - generic [ref=f1e271]: $ 目標：整理本季客戶報價並寄出
+        - generic [ref=f1e272]: ▸ 拆解任務… [擷取資料] [試算] [產生 PDF] [寄信]
+        - generic [ref=f1e273]: ▸ 規劃 4 個子任務，依賴序：A → B → C → D
+        - generic [ref=f1e274]: ▸ 呼叫工具：GET /api/orders?quarter=Q2
+        - generic [ref=f1e275]: ✓ 200 OK — 取得 128 筆訂單（耗時 0.4s）
+        - generic [ref=f1e276]: ▸ 呼叫工具：calculator.price(volume=128)
+        - generic [ref=f1e277]: ✓ 試算完成，誤差率 0.00%
+        - generic [ref=f1e278]: ▸ 呼叫工具：render.pdf(template='quote')
+        - generic [ref=f1e279]: ✓ PDF 產生完成（12 頁）
+        - generic [ref=f1e280]: ▸ 驗證：抽核金額 × 3 筆，全部一致
+        - generic [ref=f1e281]: ✓ 郵件已寄出至 26 位客戶
+        - generic [ref=f1e282]: ✓ 任務完成 — 總耗時 42s，零人工介入
+        - generic [ref=f1e283]: "[日志已寫入 audit.log · 可完全稽核]"
+    - button "↻ 重新播放" [ref=f1e235] [cursor=pointer]
+  - generic [ref=f1e236]:
+    - paragraph [ref=f1e237]: BY THE NUMBERS — 03/08
+    - generic [ref=f1e238]:
+      - generic [ref=f1e239]:
+        - text: 40%+
+        - paragraph [ref=f1e240]: 流程工時節省
+      - generic [ref=f1e241]:
+        - text: 24/7
+        - paragraph [ref=f1e242]: 全年無休運作
+      - generic [ref=f1e243]:
+        - text: 95%
+        - paragraph [ref=f1e244]: 重複任務自動化
+      - generic [ref=f1e245]:
+        - text: 10x
+        - paragraph [ref=f1e246]: 部署速度提升
+  - generic [ref=f1e247]:
+    - generic [ref=f1e248]:
+      - paragraph [ref=f1e249]: FAQ — 04/08
+      - heading "常見 疑問" [level=2] [ref=f1e250]: 常見疑問
+    - generic [ref=f1e251]:
+      - group [ref=f1e252]:
+        - generic "Agent AI 和聊天機器人差在哪？ ＋" [ref=f1e253] [cursor=pointer]:
+          - text: Agent AI 和聊天機器人差在哪？
+          - generic [ref=f1e254]: ＋
+      - group [ref=f1e255]:
+        - generic "它會取代我的工作嗎？ ＋" [ref=f1e256] [cursor=pointer]:
+          - text: 它會取代我的工作嗎？
+          - generic [ref=f1e257]: ＋
+      - group [ref=f1e258]:
+        - generic "導入需要重寫現有系統嗎？ ＋" [ref=f1e259] [cursor=pointer]:
+          - text: 導入需要重寫現有系統嗎？
+          - generic [ref=f1e260]: ＋
+      - group [ref=f1e261]:
+        - generic "如何確保它不會做錯事？ ＋" [ref=f1e262] [cursor=pointer]:
+          - text: 如何確保它不會做錯事？
+          - generic [ref=f1e263]: ＋
+  - generic [ref=f1e264]:
+    - heading "給你的組織 一個會做事的夥伴。" [level=2] [ref=f1e265]: 給你的組織一個會做事的夥伴。
+    - paragraph [ref=f1e266]: 從一個流程開始，體驗 Agent AI 的執行力。
+    - link "開始導入 →" [ref=f1e267] [cursor=pointer]:
+      - /url: "#top"
+  - contentinfo [ref=f1e268]:
+    - paragraph [ref=f1e269]: AgentAI · 自主智慧體簡報 — 2026
+    - paragraph [ref=f1e270]: HTML + CSS + JS · 純前端示範
