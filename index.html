@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Agent AI 自主智慧體白皮書：八項優點、任務生命週期示範與導入 FAQ——把「回答問題」變成「完成工作」。">
+  <title>Agent AI — 自主智慧體的時代</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23e2341d'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='bold' fill='%23f3eee3' text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- 頂部導覽 -->
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">AG</span>
+      <span class="brand-name">Agent<span class="accent">AI</span></span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主要導覽">
+      <a href="#benefits">優點</a>
+      <a href="#demo">運作方式</a>
+      <a href="#numbers">數據</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-ghost" href="#cta">立即導入</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="開啟選單">MENU</button>
+  </header>
+
+  <!-- 英雄區 -->
+  <section class="hero" id="top">
+    <p class="hero-eyebrow reveal">TAIWAN / 自主智慧體白皮書 · 2026</p>
+    <h1 class="hero-title">
+      <span class="line reveal" style="--d:.05s">不是聊天機器人，</span>
+      <span class="line reveal accent" style="--d:.15s">是會動手做事</span>
+      <span class="line reveal" style="--d:.25s">的 AI。</span>
+    </h1>
+    <p class="hero-sub reveal" style="--d:.35s">
+      Agent AI 能拆解任務、調用工具、自主決策並持續改進——把「回答問題」變成「完成工作」。
+      這是一份關於它如何改變生產力的簡報。
+    </p>
+    <div class="hero-actions reveal" style="--d:.45s">
+      <a class="btn btn-primary" href="#benefits">探索八項優點 ↓</a>
+      <a class="btn btn-ghost" href="#demo">▶ 看它如何運作</a>
+    </div>
+    <div class="hero-meta reveal" style="--d:.55s">
+      <span>01</span><span>自主性</span><span>·</span>
+      <span>02</span><span>工具調用</span><span>·</span>
+      <span>03</span><span>多代理協作</span>
+    </div>
+  </section>
+
+  <!-- 跑馬燈 -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>自主決策</span><i>◆</i><span>工具調用</span><i>◆</i><span>多步規劃</span><i>◆</i>
+      <span>7×24 運作</span><i>◆</i><span>自我修正</span><i>◆</i><span>代理協作</span><i>◆</i>
+      <span>自主決策</span><i>◆</i><span>工具調用</span><i>◆</i><span>多步規劃</span><i>◆</i>
+      <span>7×24 運作</span><i>◆</i><span>自我修正</span><i>◆</i><span>代理協作</span><i>◆</i>
+    </div>
+  </div>
+
+  <!-- 優點主區 -->
+  <main id="benefits" class="benefits">
+    <header class="section-head">
+      <p class="kicker">THE BENEFITS — 01/08</p>
+      <h2 class="section-title">為何企業開始<br>僱用「智慧體」？</h2>
+      <p class="section-note">八個維度，說明 Agent AI 不是升級版客服，而是全新的執行力。</p>
+    </header>
+
+    <article class="benefit-card reveal" data-index="0">
+      <div class="b-num">01</div>
+      <div class="b-body">
+        <h3 class="b-title">真正的自主性</h3>
+        <p class="b-desc">Agent 不等待指令。它接收目標後，自行拆解子任務、安排執行順序，並在遇到障礙時調整策略——就像一位不需要微管理的資深員工。</p>
+        <ul class="b-tags"><li>目標驅動</li><li>動態決策</li><li>自我排程</li></ul>
+      </div>
+      <div class="b-viz" data-viz="autonomy" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="1">
+      <div class="b-num">02</div>
+      <div class="b-body">
+        <h3 class="b-title">工具調用與系統整合</h3>
+        <p class="b-desc">查 API、寫資料庫、發郵件、操作瀏覽器——Agent 透過「函式呼叫」直接操作你的工具鏈，打破「只能說、不能做」的界線。</p>
+        <ul class="b-tags"><li>API 串接</li><li>瀏覽器自動化</li><li>資料庫操作</li></ul>
+      </div>
+      <div class="b-viz" data-viz="tools" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="2">
+      <div class="b-num">03</div>
+      <div class="b-body">
+        <h3 class="b-title">多步驟規劃與推理</h3>
+        <p class="b-desc">單次提示無法完成的事，Agent 以思維鏈拆解成十步、百步的計畫，逐步驗證結果、回溯錯誤，直到任務完成。</p>
+        <ul class="b-tags"><li>思維鏈</li><li>回朔修正</li><li>長程任務</li></ul>
+      </div>
+      <div class="b-viz" data-viz="plan" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="3">
+      <div class="b-num">04</div>
+      <div class="b-body">
+        <h3 class="b-title">7×24 不間斷執行力</h3>
+        <p class="b-desc">凌晨三點的訂單異常、假日湧入的支援請求——Agent 全年無休、零疲勞運作，把「等待上班」變成過去式。</p>
+        <ul class="b-tags"><li>零停工</li><li>即時回應</li><li>全球時區</li></ul>
+      </div>
+      <div class="b-viz" data-viz="clock" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="4">
+      <div class="b-num">05</div>
+      <div class="b-body">
+        <h3 class="b-title">成本與效率的雙重槓桿</h3>
+        <p class="b-desc">一個 Agent 可同時處理數十條流程。研究顯示，導入代理自動化的團隊平均省下 40% 以上的流程工時，把人力釋放到真正需要判斷的工作。</p>
+        <ul class="b-tags"><li>省工時</li><li>擴展性</li><li>ROI 明確</li></ul>
+      </div>
+      <div class="b-viz" data-viz="lever" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="5">
+      <div class="b-num">06</div>
+      <div class="b-body">
+        <h3 class="b-title">持續學習與自我改進</h3>
+        <p class="b-desc">每次任務的回饋都會成為下一次的經驗。Agent 從失敗中學習、從成功中精進，使用越久、表現越好——這是傳統自動化做不到的。</p>
+        <ul class="b-tags"><li>經驗記憶</li><li>回饋循環</li><li>越用越強</li></ul>
+      </div>
+      <div class="b-viz" data-viz="learn" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="6">
+      <div class="b-num">07</div>
+      <div class="b-body">
+        <h3 class="b-title">多代理協作網路</h3>
+        <p class="b-desc">研究者、寫手、審查者、執行者——多個專精 Agent 像一支團隊般分工，透過協定傳遞任務與成果，把複雜專案拆成專業分工。</p>
+        <ul class="b-tags"><li>角色分工</li><li>協定通訊</li><li>團隊協作</li></ul>
+      </div>
+      <div class="b-viz" data-viz="swarm" aria-hidden="true"></div>
+    </article>
+
+    <article class="benefit-card reveal" data-index="7">
+      <div class="b-num">08</div>
+      <div class="b-body">
+        <h3 class="b-title">降低人為錯誤與一致品質</h3>
+        <p class="b-desc">手動作業的疏漏、情緒、疲勞——全部歸零。Agent 嚴格遵循規則與標準作業流程，每次產出的一致性，遠勝最謹慎的人類。</p>
+        <ul class="b-tags"><li>零疏漏</li><li>SOP 內建</li><li>可稽核</li></ul>
+      </div>
+      <div class="b-viz" data-viz="shield" aria-hidden="true"></div>
+    </article>
+  </main>
+
+  <!-- 運作方式示範 -->
+  <section class="demo" id="demo">
+    <div class="section-head demo-head">
+      <p class="kicker">HOW IT WORKS — 02/08</p>
+      <h2 class="section-title">一次任務的<br>生命週期</h2>
+    </div>
+
+    <div class="pipeline" id="pipeline">
+      <div class="stage" data-stage="goal"><span class="stage-ico">◎</span><h4>接收目標</h4><p>「整理本季所有客戶報價並寄出」</p></div>
+      <div class="pipe"><span>→</span></div>
+      <div class="stage" data-stage="plan"><span class="stage-ico">◇</span><h4>拆解規劃</h4><p>擷取資料 → 計算 → 產生 PDF</p></div>
+      <div class="pipe"><span>→</span></div>
+      <div class="stage" data-stage="tools"><span class="stage-ico">△</span><h4>調用工具</h4><p>SELECT · PRICE() · RENDER()</p></div>
+      <div class="pipe"><span>→</span></div>
+      <div class="stage" data-stage="verify"><span class="stage-ico">◈</span><h4>驗證回報</h4><p>核對金額 → 通知完成 ✓</p></div>
+    </div>
+
+    <div class="demo-console" id="console" aria-live="polite">
+      <div class="console-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <code>agent@work ~ % run mission</code>
+      </div>
+      <div class="console-body" id="consoleBody"></div>
+    </div>
+    <button class="btn btn-primary replay" id="replayBtn">↻ 重新播放</button>
+  </section>
+
+  <!-- 數據區 -->
+  <section class="numbers" id="numbers">
+    <p class="kicker">BY THE NUMBERS — 03/08</p>
+    <div class="stat-grid">
+      <div class="stat reveal"><span class="stat-num" data-count="40">0</span><span class="stat-suffix">%+</span><p>流程工時節省</p></div>
+      <div class="stat reveal"><span class="stat-num" data-count="24">0</span><span class="stat-suffix">/7</span><p>全年無休運作</p></div>
+      <div class="stat reveal"><span class="stat-num" data-count="95">0</span><span class="stat-suffix">%</span><p>重複任務自動化</p></div>
+      <div class="stat reveal"><span class="stat-num" data-count="10">0</span><span class="stat-suffix">x</span><p>部署速度提升</p></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-head">
+      <p class="kicker">FAQ — 04/08</p>
+      <h2 class="section-title">常見<br>疑問</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Agent AI 和聊天機器人差在哪？<span class="faq-x">＋</span></summary>
+        <p>聊天機器人只回覆文字；Agent 擁有「執行回路」——能呼叫工具、操作系統、驗證結果並自主完成任務，輸出的是成品而非建議。</p>
+      </details>
+      <details class="faq-item">
+        <summary>它會取代我的工作嗎？<span class="faq-x">＋</span></summary>
+        <p>Agent 最擅長重複、規則明確的流程，而判斷、創意、關係與責任仍然屬於人。它的價值在於把人的時間還給人。</p>
+      </details>
+      <details class="faq-item">
+        <summary>導入需要重寫現有系統嗎？<span class="faq-x">＋</span></summary>
+        <p>不需要。主流框架皆支援既有 API 與工具介面，可以從單一流程試點，逐步擴展到整個組織。</p>
+      </details>
+      <details class="faq-item">
+        <summary>如何確保它不會做錯事？<span class="faq-x">＋</span></summary>
+        <p>透過權限控管、人工審核關卡（human-in-the-loop）、日誌稽核與沙盒環境，讓 Agent 在可監督的邊界內自主運作。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="cta">
+    <h2 class="cta-title reveal">給你的組織<br>一個<span class="accent">會做事</span>的夥伴。</h2>
+    <p class="reveal" style="--d:.15s">從一個流程開始，體驗 Agent AI 的執行力。</p>
+    <a class="btn btn-primary big reveal" style="--d:.25s" href="#top">開始導入 →</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>AgentAI · 自主智慧體簡報 — 2026</p>
+    <p class="footer-mono">HTML + CSS + JS · 純前端示範</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
